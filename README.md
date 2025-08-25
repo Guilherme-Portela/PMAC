@@ -68,3 +68,8 @@ pip install -r requirements.txt
 
 # Executar projeto
 python app.py
+```
+
+### Timeline de updates
+```v1.0.0```: *"Criação automatica dos projetos"*
+```v2.0.0```: *"Criação automatica + gerenciamento dos projetos"*
