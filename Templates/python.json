@@ -1,0 +1,32 @@
+{
+    "console": {
+        "folders": ["src", "tests"],
+        "files": ["main.py"],
+        "docker-file": "Templates/docker-files/python-console-dockerfile.docker-file"
+    },
+    "cli": {
+        "folders": ["src", "tests"],
+        "files": ["app.py"],
+        "docker-file": "Templates/docker-files/python-cli-dockerfile.docker-file"
+    },
+    "flask": {
+        "folders": ["src", "tests"],
+        "files": ["app.py"],
+        "docker-file": "Templates/docker-files/python-flask-dockerfile.docker-file"
+    },
+    "fastapi": {
+        "folders": ["src", "tests"],
+        "files": ["main.py"],
+        "docker-file": "Templates/docker-files/python-fastapi-dockerfile.docker-file"
+    },
+    "data-science": {
+        "folders": ["notebooks", "data"],
+        "files": ["analysis.ipynb"],
+        "docker-file": "Templates/docker-files/python-datascience-dockerfile.docker-file"
+    },
+    "package": {
+        "folders": ["src", "tests"],
+        "files": ["__init__.py", "setup.py"],
+        "docker-file": "Templates/docker-files/python-package-dockerfile.docker-file"
+    }
+}

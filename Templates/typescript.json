@@ -1,0 +1,17 @@
+{
+    "ts-cli": {
+        "folders": ["src", "tests"],
+        "files": ["index.ts", "tsconfig.json"],
+        "docker-file": "Templates/docker-files/typescript-cli-dockerfile.docker-file"
+    },
+    "express-ts": {
+        "folders": ["src", "tests", "routes", "controllers"],
+        "files": ["app.ts", "server.ts", "tsconfig.json"],
+        "docker-file": "Templates/docker-files/typescript-express-dockerfile.docker-file"
+    },
+    "library-ts": {
+        "folders": ["src", "tests"],
+        "files": ["index.ts", "tsconfig.json"],
+        "docker-file": "Templates/docker-files/typescript-library-dockerfile.docker-file"
+    }
+}

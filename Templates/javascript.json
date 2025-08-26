@@ -1,0 +1,17 @@
+{
+    "node-cli": {
+        "folders": ["src", "tests"],
+        "files": ["index.js"],
+        "docker-file": "Templates/docker-files/javascript-node-cli-dockerfile.docker-file"
+    },
+    "express": {
+        "folders": ["src", "tests", "routes", "controllers"],
+        "files": ["app.js", "server.js"],
+        "docker-file": "Templates/docker-files/javascript-express-dockerfile.docker-file"
+    },
+    "library": {
+        "folders": ["src", "tests"],
+        "files": ["index.js"],
+        "docker-file": "Templates/docker-files/javascript-library-dockerfile.docker-file"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "script": {
+        "folders": ["bin", "tests"],
+        "files": ["script.sh"],
+        "docker-file": "Templates/docker-files/bash-script-dockerfile.docker-file"
+    },
+    "automation": {
+        "folders": ["scripts", "logs"],
+        "files": ["run.sh"],
+        "docker-file": "Templates/docker-files/bash-automation-dockerfile.docker-file"
+    },
+    "cli": {
+        "folders": ["src", "tests"],
+        "files": ["tool.sh"],
+        "docker-file": "Templates/docker-files/bash-cli-dockerfile.docker-file"
+    }
+}

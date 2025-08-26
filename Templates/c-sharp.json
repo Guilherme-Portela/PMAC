@@ -1,0 +1,17 @@
+{
+    "console": {
+        "folders": ["src", "tests"],
+        "files": ["Program.cs"],
+        "docker-file": "Templates/docker-files/csharp-console-dockerfile.docker-file"
+    },
+    "aspnet": {
+        "folders": ["src", "tests"],
+        "files": ["Startup.cs", "Program.cs"],
+        "docker-file": "Templates/docker-files/csharp-aspnet-dockerfile.docker-file"
+    },
+    "library": {
+        "folders": ["src", "tests"],
+        "files": ["MyLibrary.cs"],
+        "docker-file": "Templates/docker-files/csharp-library-dockerfile.docker-file"
+    }
+}
