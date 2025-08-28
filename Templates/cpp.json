@@ -1,0 +1,17 @@
+{
+    "program": {
+        "folders": ["src", "include", "bin", "tests"],
+        "files": ["main.cpp", "Makefile"],
+        "docker-file": "Templates/docker-files/cpp-program-dockerfile.docker-file"
+    },
+    "library": {
+        "folders": ["src", "include", "lib", "tests"],
+        "files": ["lib.cpp", "lib.hpp", "Makefile"],
+        "docker-file": "Templates/docker-files/cpp-library-dockerfile.docker-file"
+    },
+    "cli": {
+        "folders": ["src", "include", "bin", "tests"],
+        "files": ["main.cpp", "Makefile"],
+        "docker-file": "Templates/docker-files/cpp-cli-dockerfile.docker-file"
+    }
+}

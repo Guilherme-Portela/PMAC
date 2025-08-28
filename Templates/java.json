@@ -1,0 +1,27 @@
+{
+    "console": {
+        "folders": ["src", "tests"],
+        "files": ["Main.java"],
+        "docker-file": "Templates/docker-files/java-console-dockerfile.docker-file"
+    },
+    "maven": {
+        "folders": ["src", "tests"],
+        "files": ["pom.xml", "Main.java"],
+        "docker-file": "Templates/docker-files/java-maven-dockerfile.docker-file"
+    },
+    "spring": {
+        "folders": ["src", "tests"],
+        "files": ["Application.java"],
+        "docker-file": "Templates/docker-files/java-spring-dockerfile.docker-file"
+    },
+    "library": {
+        "folders": ["src", "tests"],
+        "files": ["MyLibrary.java"],
+        "docker-file": "Templates/docker-files/java-library-dockerfile.docker-file"
+    },
+    "unit-test": {
+        "folders": ["src", "tests"],
+        "files": ["TestMain.java"],
+        "docker-file": "Templates/docker-files/java-unit-test-dockerfile.docker-file"
+    }
+}
