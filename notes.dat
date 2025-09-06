@@ -1,3 +1,7 @@
-"don't show any log"
-    stdout=subprocess.DEVNULL,
-    stderr=subprocess.DEVNULL
+Verify if has any bug: {
+    If has a bug: {
+        Correct bug;
+    } else {
+        Continue with the project
+    }
+}
